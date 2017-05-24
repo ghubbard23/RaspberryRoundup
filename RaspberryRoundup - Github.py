@@ -83,15 +83,6 @@ def asset_tag():
         input("Asset tag numbers did not match. Press Enter to try the Asset Tag again. :")
         return asset_tag()
 
-
-
-#def duplicate_asset_tag(tag_number):
-
-#        print('Please run the script again with the correct asset tag number')
-#        input('Press ENTER to continue.')
-#        sys.exit()
-
-
 def create_text_file(tag_number, serial, macaddr):
     print('Creating QA File with Asset, Serial and MAC info...\n')
     #the goal is to create a folder named as the asset tag # and store all supporting documentation within that folder
